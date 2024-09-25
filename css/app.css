@@ -26,23 +26,46 @@ img {
 }
 
 
+/* LAYOUT */
+.container {
+    max-width: 1200px;
+    margin: 0 auto;
+}
+
+.row {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.col-100{
+    width: 100%;
+}
+
+.col-67 {
+    width: calc((100%/3)*2);
+}
+
+.col-33 {
+    width: calc(100%/3);
+}
+
 
 /* HEADER */
-.navbar-header{
+.navbar-header {
     display: flex;
     justify-content: space-between;
     align-items: center;
     padding: 10px 20px;
 }
 
-.main-menu{
+.main-menu {
     display: flex;
     justify-content: center;
     align-items: center;
     gap: 30px;
 }
 
-.logo{
+.logo {
     display: block;
 }
 
@@ -57,6 +80,6 @@ img {
 
 
 /* DEBUG */
-.debug > *, .debug .navbar-header >*{
+.debug>*, .debug .navbar-header>* {
     border: 2px solid black;
 }
