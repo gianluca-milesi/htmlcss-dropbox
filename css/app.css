@@ -25,9 +25,13 @@ img {
     max-width: 100%;
 }
 
+h1{
+    font-size: 80px;
+}
+
 
 /* LAYOUT */
-.container {
+.container-medium {
     max-width: 1200px;
     margin: 0 auto;
 }
