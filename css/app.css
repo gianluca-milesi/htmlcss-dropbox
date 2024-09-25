@@ -88,6 +88,12 @@ h1 {
     display: block;
 }
 
+.login{
+    display: flex;
+    align-items: center;
+    gap: 16px;
+}
+
 
 /* MAIN */
 .hero {
