@@ -28,3 +28,35 @@ img {
 
 
 /* HEADER */
+.navbar-header{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px 20px;
+}
+
+.main-menu{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 30px;
+}
+
+.logo{
+    display: block;
+}
+
+
+
+
+
+
+
+
+
+
+
+/* DEBUG */
+.debug > *, .debug .navbar-header >*{
+    border: 2px solid black;
+}
