@@ -1,0 +1,26 @@
+/* GENERALI */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+html {
+    font-family: Roboto, sans-serif;
+    font-size: 18px;
+}
+
+ul,
+ol {
+    list-style: none;
+    font-size: 14px;
+}
+
+a {
+    color: currentColor;
+    text-decoration: none;
+}
+
+img {
+    max-width: 100%;
+}
