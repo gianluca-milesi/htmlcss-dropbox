@@ -96,6 +96,7 @@ h4 {
     align-items: flex-start;
     gap: 30px;
     height: 100%;
+    padding: 0 26px;
 }
 
 .bx-down-arrow-alt {
@@ -224,10 +225,17 @@ h4 {
     max-width: 600px;
 }
 
-.card-business {
-    padding: 0 25px;
+.free-trial{
+    background-color: rgb(180, 208, 231);
+    padding: 130px 0;
 }
 
+.free-trial__box {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 230px;
+}
 
 
 
@@ -289,6 +297,8 @@ h4 {
     text-decoration: underline;
 }
 
+
+/* cambiare nome */
 .btn-partner {
     background-color: transparent;
     color: black;
@@ -299,6 +309,13 @@ h4 {
     max-width: 620px;
 }
 
+.color-magenta {
+    color: rgb(140, 67, 86);
+}
+
+.bg-white {
+    background-color: white;
+}
 
 
 
