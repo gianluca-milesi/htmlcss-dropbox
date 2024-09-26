@@ -43,6 +43,10 @@ h3 {
     font-size: 26px;
 }
 
+h4 {
+    font-size: 16px;
+}
+
 
 /* LAYOUT */
 .container {
@@ -157,6 +161,7 @@ h3 {
     gap: 20px;
 }
 
+/* tutte le section della card sotto al titolo */
 .card__description{
     display: flex;
     flex-direction: column;
@@ -164,13 +169,14 @@ h3 {
     padding: 40px 32px 0 32px;
 }
 
-.description__feature ul{
+/* liste di description feature e description highlights */
+.description-list ul{
     display: flex;
     flex-direction: column;
     gap: 20px;
 }
 
-.description__feature ul > *{
+.description-list ul > *{
     display: flex;
     justify-content: flex-start;
     align-items: flex-start;
@@ -215,6 +221,13 @@ h3 {
     margin: 80px 0;
 }
 
+.color-blue {
+    color: rgb(0, 97, 255);
+}
+
+.fw-900{
+    font-weight: 900;
+}
 
 
 
