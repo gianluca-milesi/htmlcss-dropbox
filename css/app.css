@@ -39,6 +39,10 @@ h2 {
     font-size: 44px;
 }
 
+h3 {
+    font-size: 26px;
+}
+
 
 /* LAYOUT */
 .container {
@@ -126,6 +130,44 @@ h2 {
     display: flex;
     gap: 44px;
     margin: 58px 0 48px 0;
+}
+
+/* Card */
+.card {
+    border: 1px solid rgba(0, 0, 0, 0.1);
+}
+
+.card__title {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 10px 118px;
+    border-bottom: 1px solid rgba(0, 0, 0, 0.1);
+}
+
+.card__description {
+    display: flex;
+    flex-direction: column;
+    row-gap: 50px;
+}
+
+.description__price{
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+}
+
+.card__description{
+    display: flex;
+    flex-direction: column;
+    gap: 52px;
+    padding: 40px 32px 0 32px;
+}
+
+.description__feature ul > *{
+    display: flex;
+    justify-content: flex-start;
+    align-items: flex-start;
 }
 
 
