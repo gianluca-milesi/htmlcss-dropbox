@@ -164,11 +164,33 @@ h3 {
     padding: 40px 32px 0 32px;
 }
 
+.description__feature ul{
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+}
+
 .description__feature ul > *{
     display: flex;
     justify-content: flex-start;
     align-items: flex-start;
+    gap: 4px;
 }
+
+.description__buy {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    gap: 30px;
+}
+
+.description__buy::after{
+    content: "";
+    border: 1px solid rgba(0, 0, 0, 0.1);
+    width: 50px;
+}
+
+
 
 
 
