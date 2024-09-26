@@ -35,12 +35,20 @@ h1 {
     font-size: 80px;
 }
 
+h2 {
+    font-size: 44px;
+}
+
 
 /* LAYOUT */
-.container-medium {
+.container {
     max-width: 1200px;
     margin: 0 auto;
-    position: relative;
+}
+
+.container-small {
+    max-width: 1014px;
+    margin: 0 auto;
 }
 
 .row {
@@ -60,7 +68,7 @@ h1 {
     width: calc(100%/3);
 }
 
-.btn-style{
+.btn-style {
     background-color: rgb(0, 97, 255);
     color: white;
     border: none;
@@ -76,7 +84,7 @@ h1 {
     height: 100%;
 }
 
-.bx-down-arrow-alt{
+.bx-down-arrow-alt {
     font-size: 50px;
     margin: auto 0;
 }
@@ -101,7 +109,7 @@ h1 {
     display: block;
 }
 
-.login{
+.login {
     display: flex;
     align-items: center;
     gap: 16px;
@@ -112,6 +120,12 @@ h1 {
 .hero {
     background-color: rgb(180, 208, 231);
     padding: 100px 0 0 0;
+}
+
+.plans__input{
+    display: flex;
+    gap: 44px;
+    margin: 58px 0 48px 0;
 }
 
 
@@ -129,11 +143,12 @@ h1 {
 
 
 /* UTILITIES */
-.margin-65b{
+.margin-65b {
     margin-bottom: 65px;
 }
-.margin-30y{
-    margin: 30px 0;
+
+.margin-80y {
+    margin: 80px 0;
 }
 
 
@@ -142,5 +157,8 @@ h1 {
 
 /* DEBUG */
 .debug>*, .debug .navbar-header>* {
+    border: 2px solid black;
+}
+.debug .col-100{
     border: 2px solid black;
 }
