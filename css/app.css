@@ -3,7 +3,7 @@
     margin: 0;
     padding: 0;
     box-sizing: border-box;
-    font-size: 18px;
+    font-size: 16px;
 }
 
 html {
@@ -111,10 +111,6 @@ h4 {
     gap: 30px;
 }
 
-.main-menu li a {
-    font-size: 16px;
-}
-
 .logo {
     display: block;
 }
@@ -123,7 +119,6 @@ h4 {
     display: flex;
     align-items: center;
     gap: 16px;
-    font-size: 16px;
 }
 
 
@@ -143,6 +138,10 @@ h4 {
 .card {
     border: 1px solid rgba(0, 0, 0, 0.1);
 }
+
+.col-33 .card:not(.col-33:nth-child(3)){
+    margin-right: 48px;
+} 
 
 .card__title {
     display: flex;
@@ -169,7 +168,7 @@ h4 {
     display: flex;
     flex-direction: column;
     gap: 52px;
-    padding: 40px 32px 0 32px;
+    padding: 40px 32px;
 }
 
 /* liste di description feature e description highlights */
