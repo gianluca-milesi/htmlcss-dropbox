@@ -128,6 +128,10 @@ h4 {
     padding: 100px 0 0 0;
 }
 
+.plans *:not(h2,h3,h4){
+    font-size: 14px;
+}
+
 .plans__input{
     display: flex;
     gap: 44px;
@@ -140,7 +144,7 @@ h4 {
 }
 
 .col-33 .card:not(.col-33:nth-child(3)){
-    margin-right: 48px;
+    margin-right: 52px;
 } 
 
 .card__title {
@@ -168,7 +172,7 @@ h4 {
     display: flex;
     flex-direction: column;
     gap: 52px;
-    padding: 40px 32px;
+    padding: 38px 28px;
 }
 
 /* liste di description feature e description highlights */
