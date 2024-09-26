@@ -271,6 +271,12 @@ h4 {
     text-decoration: underline;
 }
 
+.btn-partner {
+    background-color: transparent;
+    color: black;
+    border: 1px solid black;
+}
+
 
 
 
