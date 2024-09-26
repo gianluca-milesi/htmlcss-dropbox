@@ -143,9 +143,9 @@ h4 {
     border: 1px solid rgba(0, 0, 0, 0.1);
 }
 
-.col-33 .card:not(.col-33:nth-child(3)){
-    margin-right: 52px;
-} 
+.card.card-team {
+    margin-top: 50px;
+}
 
 .card__title {
     display: flex;
@@ -202,6 +202,17 @@ h4 {
     width: 50px;
 }
 
+.description__contact{
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-start;
+}
+
+.description__subtitle{
+    max-width: 600px;
+}
+
+
 
 
 
@@ -225,6 +236,10 @@ h4 {
 
 .margin-34b {
     margin-bottom: 34px;
+}
+
+.margin-18b {
+    margin-bottom: 18px;
 }
 
 .margin-80y {
