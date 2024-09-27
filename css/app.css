@@ -70,7 +70,7 @@ h4 {
     width: calc((100%/3)*2);
 }
 
-.col-60{
+.col-60 {
     width: 60%;
 }
 
@@ -137,15 +137,16 @@ h4 {
     padding: 100px 0 0 0;
 }
 
-.plans {
-    padding: 80px 0 160px 0;
+.hero-image {
+    width: 100%;
+    margin-bottom: -65px;
 }
 
-.plans *:not(h2,h3,h4){
+.plans *:not(h2, h3, h4) {
     font-size: 14px;
 }
 
-.plans__input{
+.plans__input {
     display: flex;
     gap: 44px;
     margin: 58px 0 48px 0;
@@ -174,14 +175,14 @@ h4 {
     row-gap: 50px;
 }
 
-.description__price{
+.description__price {
     display: flex;
     flex-direction: column;
     gap: 20px;
 }
 
 /* tutte le section della card sotto al titolo */
-.card__description{
+.card__description {
     display: flex;
     flex-direction: column;
     gap: 52px;
@@ -189,13 +190,13 @@ h4 {
 }
 
 /* liste di description feature e description highlights */
-.description-list ul{
+.description-list ul {
     display: flex;
     flex-direction: column;
     gap: 20px;
 }
 
-.description-list ul > *{
+.description-list ul>* {
     display: flex;
     justify-content: flex-start;
     align-items: flex-start;
@@ -209,23 +210,23 @@ h4 {
     gap: 30px;
 }
 
-.description__buy::after{
+.description__buy::after {
     content: "";
     border: 1px solid rgba(0, 0, 0, 0.1);
     width: 50px;
 }
 
-.description__contact{
+.description__contact {
     display: flex;
     justify-content: space-between;
     align-items: flex-start;
 }
 
-.description__subtitle{
+.description__subtitle {
     max-width: 600px;
 }
 
-.free-trial{
+.free-trial {
     background-color: rgb(180, 208, 231);
     padding: 130px 0;
 }
@@ -276,6 +277,10 @@ h4 {
     margin: 80px 0;
 }
 
+.margin-80b {
+    margin-bottom: 80px;
+}
+
 .padding-50 {
     padding: 56px;
 }
@@ -288,13 +293,17 @@ h4 {
     color: rgb(0, 97, 255);
 }
 
-.fw-900{
+.fw-900 {
     font-weight: 900;
 }
 
 .reset-style {
     color: blue;
     text-decoration: underline;
+}
+
+.cursor-pointer {
+    cursor: pointer;
 }
 
 
@@ -305,7 +314,7 @@ h4 {
     border: 1px solid black;
 }
 
-.mw-620{
+.mw-620 {
     max-width: 620px;
 }
 
@@ -323,6 +332,7 @@ h4 {
 .debug>*, .debug .navbar-header>* {
     border: 2px solid black;
 }
-.debug .col-100{
+
+.debug .col-100 {
     border: 2px solid black;
 }
