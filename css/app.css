@@ -155,10 +155,7 @@ h4 {
 /* Card */
 .card {
     border: 1px solid rgba(0, 0, 0, 0.1);
-}
-
-.card.card-team {
-    margin-top: 50px;
+    height: 100%;
 }
 
 .card__title {
@@ -246,6 +243,12 @@ h4 {
 
 
 
+
+
+/* HOVER */
+.btn-style:hover {
+    background-color: rgb(61, 135, 255);
+}
 
 
 
